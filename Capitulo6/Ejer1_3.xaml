@@ -43,6 +43,6 @@
             <Button Name="AtrasButton" Content="Atras" Width="60" Height="20" HorizontalAlignment="Left" Margin="5,53,0,0" />
 
         </StackPanel>
-        <TextBlock Name="resultadoTextBlock" Background="LightGray" Margin="309,243,60,88"/>
+        <TextBlock Name="resultadoTextBlock" Background="LightGray" Margin="309,243,60,91"/>
     </Grid>
 </Window>

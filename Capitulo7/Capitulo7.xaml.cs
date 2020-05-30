@@ -21,5 +21,12 @@ namespace Cap6_7.Capitulo7
         {
             InitializeComponent();
         }
+
+        private void Ejer1_3Button_Click(object sender, RoutedEventArgs e)
+        {
+            Ejercicio1 ejercicio1 = new Ejercicio1();
+            ejercicio1.Show();
+            this.Close();
+        }
     }
 }

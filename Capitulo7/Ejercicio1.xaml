@@ -1,0 +1,30 @@
+﻿<Window x:Class="Cap6_7.Capitulo7.Ejercicio1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cap6_7.Capitulo7"
+        mc:Ignorable="d"
+        Title="Ejercicio 1" Height="317" Width="520" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="10,10,10,10">
+            <Label Content="Aqui podras calcular la nota maxima, minima y el promedio de un salon." FontWeight="Bold"/>
+
+            <Label Content="Ingresa las calificaciones:"/>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBox Name="califTextBox" Width="50" Margin="5,0"/>
+                <Button Name="insertarButton" Content="Insertar" Height="20" Click="insertarButton_Click"/>
+                <Button Name="calcularButton" Content="Calcular" Height="20" Margin="10,0,0,0" Click="calcularButton_Click"/>
+                <Button Name="limpiarButton" Content="Limpiar" Height="20" Margin="10,0,0,0"/>
+            </StackPanel>
+
+            <Label Content="Resultados:" Margin="0,8,0,0"/>
+
+            <TextBlock Name="resultadoTextBlock" Width="100" Height="60" Background="LightGray" HorizontalAlignment="Left" Margin="5,0"/>
+
+            <Button Name="atrasButon" Content="Atras" Width="60" Height="20" HorizontalAlignment="Left" Margin="5,28,5,0" Click="atrasButon_Click"/>
+
+        </StackPanel>
+    </Grid>
+</Window>

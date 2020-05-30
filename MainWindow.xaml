@@ -14,7 +14,7 @@
             </StackPanel>
             <StackPanel Orientation="Horizontal" Margin="0,-3,0,0">
                 <Label Content="Capitulo 7"/>
-                <Button Name="Capitulo5Button" Content="Entrar" Width="65" Height="20" Margin="8,0" Click="Capitulo5Button_Click"/>
+                <Button Name="Capitulo7Button" Content="Entrar" Width="65" Height="20" Margin="8,0" Click="Capitulo7Button_Click"/>
             </StackPanel>
         </StackPanel>
     </Grid>

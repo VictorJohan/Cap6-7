@@ -25,15 +25,17 @@ namespace Cap6_7
             InitializeComponent();
         }
 
-        private void Capitulo5Button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void Capitulo6Button_Click(object sender, RoutedEventArgs e)
         {
             Capitulo6.Capitulo6 c6 = new Capitulo6.Capitulo6();
             c6.Show();
+            this.Close();
+        }
+
+        private void Capitulo7Button_Click(object sender, RoutedEventArgs e)
+        {
+            Capitulo7.Capitulo7 c7 = new Capitulo7.Capitulo7();
+            c7.Show();
             this.Close();
         }
     }

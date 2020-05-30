@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cap6_7.Capitulo6;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -26,6 +27,27 @@ namespace Cap6_7.Capitulo7
         {
             Ejercicio1 ejercicio1 = new Ejercicio1();
             ejercicio1.Show();
+            this.Close();
+        }
+
+        private void Ejer2Button_Click(object sender, RoutedEventArgs e)
+        {
+            Ejercicio2 ejercicio2 = new Ejercicio2();
+            ejercicio2.Show();
+            this.Close();
+        }
+
+        private void Ejer5Button_Click(object sender, RoutedEventArgs e)
+        {
+            Ejercicio5 ejercicio5 = new Ejercicio5();
+            ejercicio5.Show();
+            this.Close();
+        }
+
+        private void AtrasButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mw = new MainWindow();
+            mw.Show();
             this.Close();
         }
     }

@@ -84,9 +84,7 @@ namespace Cap6_7.Capitulo6
 
         private void calcularButton_Click(object sender, RoutedEventArgs e)
         {
-            String resultados = "**********************************Resultados*************************************\n";
-            
-            resultadoTextBlock.Text = resultados;
+             
 
             for (int i = 0; i < cantSalones; i++)
             {

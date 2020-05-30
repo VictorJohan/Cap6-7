@@ -1,0 +1,29 @@
+﻿<Window x:Class="Cap6_7.Capitulo7.Ejercicio5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cap6_7.Capitulo7"
+        mc:Ignorable="d"
+        Title="Ejercicio 2" Height="253" Width="492" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="10,10,10,10">
+            <Label Content="En esta ventana podras agreaga y buscar numeros telefonicos con su nombre." FontWeight="Bold"/>
+
+            <Label Content="Nombre"/>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBox Name="nombreTextBox" Width="160" Margin="5,0" Height="19"/>
+                <Button Name="agregarButton" Content="Agregar" Margin="9,0,0,0" Click="agregarButton_Click"/>
+                <Button Name="buscarButton" Content="Buscar" Margin="9,0,0,0" Click="buscarButton_Click"/>
+                <Button Name="limpiarButton" Content="Limpiar" Margin="9,0,0,0" Click="limpiarButton_Click"/>
+            </StackPanel>
+
+            <Label Content="Numero Telefonico"/>
+            <TextBox Name="numeroTextBox" Width="100" Height="19" HorizontalAlignment="Left" Margin="5,0" />
+
+            <Button Name="atrasButton" Content="Atras" Width="60" HorizontalAlignment="Left" Margin="5,32,5,0" Click="atrasButton_Click"/>
+
+        </StackPanel>
+    </Grid>
+</Window>

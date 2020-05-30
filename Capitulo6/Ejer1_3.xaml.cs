@@ -18,12 +18,7 @@ namespace Cap6_7.Capitulo6
     public partial class Ejer1_3 : Window
     {
         float minima = 10.0f, maxima = 0, promedio = 0, cantAlum = 0, suma = 0;
-        int cantSalones = 0, alumnos = 0, contadorSalon = 0, indice = 1, indice2 = 1, iterador1 = 0, iterador2 = 0;
-
-        private void AtrasButton_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
+        int cantSalones = 0, alumnos = 0, contadorSalon = 0, indice = 1, indice2 = 1, iterador1 = 0, iterador2 = 0; 
 
         float[][] calificaciones;
         public Ejer1_3()

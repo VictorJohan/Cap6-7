@@ -1,0 +1,26 @@
+﻿<Window x:Class="Cap6_7.Capitulo6.Ejercicio5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cap6_7.Capitulo6"
+        mc:Ignorable="d"
+        Title="Ejercicio_5" Height="249" Width="452" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="10,10,10,10">
+            <Label Content="En esta venta podras pasar una matriz de numeros de un lado a otro."/>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Name="matrizTextBlock" Width="100" Height="119" Background="LightGray" Margin="12,0,-6,0"/>
+                
+                <StackPanel Orientation="Vertical" Width="99" Margin="67,0,1,0">
+                    <Button Name="pasarbutton" Content="Pasar" Width=" 60" Height="20"  Click="pasarbutton_Click" Margin="0,13,0,0" />
+                    <Button Name="generarButon" Content="Generar Matriz" Margin="0,18,0,0" Click="generarButon_Click"/>
+                </StackPanel>
+                
+                <TextBlock Name="matrizPasadaTextBlock" Width="100" Height="119" Background="LightGray" Margin="46,0,0,0"/>
+            </StackPanel>
+            <Button Name="atrasButton" Content="Atras" Width="60" Height="20" Margin="5,19,5,0" HorizontalAlignment="Left" Click="atrasButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

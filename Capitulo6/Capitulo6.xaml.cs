@@ -39,7 +39,9 @@ namespace Cap6_7.Capitulo6
 
         private void Ejer5Button_Click(object sender, RoutedEventArgs e)
         {
-
+            Ejercicio5 ejercicio5 = new Ejercicio5();
+            ejercicio5.Show();
+            this.Close();
         }
 
         private void AtrasButton_Click(object sender, RoutedEventArgs e)

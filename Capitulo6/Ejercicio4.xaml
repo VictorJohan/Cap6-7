@@ -1,0 +1,43 @@
+﻿<Window x:Class="Cap6_7.Capitulo6.Ejercicio4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cap6_7.Capitulo6"
+        mc:Ignorable="d"
+        Title="Ejercicio 4" Height="390" Width="280" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="10,10,10,10">
+            <Label Content="Digite los salones" />
+            <TextBox Name= "salonesTextBox" Width="50" HorizontalAlignment="Left" Margin="5,0"/>
+
+            <Label Content="Digite la cantidad alumnos por salon" />
+            <StackPanel Orientation="Horizontal">
+                <TextBox Name= "alumnosTextBox" Width="50" HorizontalAlignment="Left" Margin="5,0"/>
+                <Button Name="insertarDatosButton" Content="Insertar Datos" Height="19" Width="86" Margin="6,0,0,0" Click="insertarDatosButton_Click"/>
+            </StackPanel>
+
+            <Label Content="Digite las calificaciones" />
+
+            <Label Name="contadorSalon" Height="20" Padding="1" Margin="5,0" Content="Salon 1:"/>
+
+            <StackPanel Orientation="Horizontal" Margin="0,-5,0,0">
+                <Label Name="contadorCalifiLabel" Height="20" Padding="1" Margin="5,0" Content="Calificacion 1:"/>
+                <TextBox Name= "califTextBox" Width="50" Height="17" HorizontalAlignment="Left" />
+                <Button Name="insertarButton" Content="Insertar" Height="19" Width="55" Margin="6,0,0,0" Click="insertarButton_Click"/>
+            </StackPanel>
+
+            <Label Content="Resulatdo:"/>
+            <TextBlock Name="resultadoTextBlock" Background="LightGray" Width="100" Height="56"  HorizontalAlignment="Left" Margin="5,0"/>
+
+            <StackPanel Orientation="Horizontal" Margin="0,6,0,0" Width="115" Height="23" HorizontalAlignment="Left">
+                <Button Name="calcularButton" Width="50" Content="Calcular" HorizontalAlignment="Left" Margin="5,2,0,3" Click="calcularButton_Click"/>
+                <Button Name="limpiarButton" Width="50" Content="Limpiar" HorizontalAlignment="Left" Margin="8,2,0,3" Click="limpiarButton_Click"/>
+            </StackPanel>
+
+            <Button Name="atrasButton" Width="50" Content="Atras" HorizontalAlignment="Left" Margin="5,47,0,0" Click="atrasButton_Click"/>
+
+
+        </StackPanel>
+    </Grid>
+</Window>

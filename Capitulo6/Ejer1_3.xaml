@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cap6_7.Capitulo6"
         mc:Ignorable="d"
-        Title="Calcular Calificaciones" Height="450" Width="800">
+        Title="Calcular Calificaciones" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
     <Grid>
         <StackPanel Orientation="Vertical" Margin="10,10,10,10">
             <Label Content="Aqui podras calcular el promedio de las calificaciones de una escuela." FontWeight="Bold" FontSize="14" Width="780" Height="19" Padding="5,-1,5,-4" />
@@ -40,7 +40,7 @@
                 <Button Name="limpiarButton" Content="Limbiar" Margin="14,0,0,0" Click="limpiarButton_Click"/>
             </StackPanel>
 
-            <Button Name="AtrasButton" Content="Atras" Width="60" Height="20" HorizontalAlignment="Left" Margin="5,53,0,0" />
+            <Button Name="AtrasButton" Content="Atras" Width="60" Height="20" HorizontalAlignment="Left" Margin="5,53,0,0" Click="AtrasButton_Click_1"/>
 
         </StackPanel>
         <TextBlock Name="resultadoTextBlock" Background="LightGray" Margin="309,243,60,91"/>

@@ -20,7 +20,10 @@ namespace Cap6_7.Capitulo6
         float minima = 10.0f, maxima = 0, promedio = 0, cantAlum = 0, suma = 0;
         int cantSalones = 0, alumnos = 0, contadorSalon = 0, indice = 1, indice2 = 1, iterador1 = 0, iterador2 = 0;
 
-        
+        private void AtrasButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
 
         float[][] calificaciones;
         public Ejer1_3()
@@ -150,5 +153,13 @@ namespace Cap6_7.Capitulo6
 
 
         }
+
+        private void AtrasButton_Click_1(object sender, RoutedEventArgs e)
+        {
+            Capitulo6 capitulo6 = new Capitulo6();
+            capitulo6.Show();
+            this.Close();
+        }
+
     }
 }
